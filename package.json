@@ -15,5 +15,8 @@
     "nuxt-svgo": "^4.0.14",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.85.1"
   }
 }
