@@ -18,6 +18,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease-out;
 }
 
 $color-white: #ffffff;
@@ -38,7 +39,7 @@ $space-xl: 8rem;
 $space-xxl: 16rem;
 
 html {
-  font-family: 'Bebas', sans-serif;
+  font-family: 'Bebas', serif;
   font-size: 16px;
   scroll-behavior: smooth;
 }
@@ -55,7 +56,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Bebas Bold';
+  font-family: 'Bebas Bold', serif;
   margin: 0;
   margin-bottom: 1rem;
   color: $color-white;
@@ -87,6 +88,7 @@ p {
 
 .link {
   color: $color-white;
+  font-family: 'Bebas', sans-serif;
 
   &:hover {    
     text-decoration: none;
@@ -110,10 +112,11 @@ p {
   color: $color-black;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease-out;
 
   &:hover {
     background-color: $color-yellow;
+    transform: scale(1.05) rotate(1deg);
   }
 
   &__primary {

@@ -19,8 +19,8 @@ onMounted(() => {
     console.log("headerHeight", headerHeight);
 
     const intro = document.querySelector('.intro');
-    intro.style.height = `calc(100vh - ${headerHeight}px - 2rem)`;
-    intro.style.maxHeight = `calc(100vh - ${headerHeight}px - 2rem)`;
+    // intro.style.height = `calc(100vh - ${headerHeight}px - 2rem)`;
+    // intro.style.maxHeight = `calc(100vh - ${headerHeight}px - 2rem)`;
 });
 </script>
 
@@ -38,10 +38,11 @@ onMounted(() => {
                 <div class="intro__btns">
                     <div class="btn__copy">
                         <h3>Baleinev 2025, c'est dans <span class="text-shadow">{{ daysBefore('2025-05-02') }} jours!</span></h3>
-                        <p class="h4 text-shadow">La billeterie est ouverte!</p>
+                        <!-- <p class="h4 text-shadow">La billeterie est ouverte!</p> -->
+                        <p class="h5 text-shadow">Découvre le line up!</p>
                     </div>
                     <div class="btn__ticket">
-                        <a class="btn btn__primary btn__big" href="#ticketing">Réserver mon billet</a>
+                        <a class="btn btn__primary btn__big" href="#prog">Découvrir la prog</a>
                     </div>
                     <a class="btn btn__secondary btn__big" href="#volunteers">Devenir bénévole</a>
                 </div>
@@ -87,7 +88,7 @@ onMounted(() => {
 .intro {
     display: flex;
     flex-wrap: wrap;
-    height: calc(100vh);
+    min-height: calc(100vh - 80px); 
     padding: $space-sm 0;
 
     @media (min-width: 768px) {

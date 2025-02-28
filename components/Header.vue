@@ -8,7 +8,8 @@ import BlvIcon from '../assets/svg/blv-icon.svg'
          <div class="row">
             <nav>
                <BlvIcon class="icon" />
-               <a href="#ticketing" class="link">Billeterie</a>
+               <!-- <a href="#ticketing" class="link">Billeterie</a> -->
+                <a href="#prog" class="link">Programme</a>
                <a href="#volunteers" class="link">Devenir bénévole</a>
             </nav>
          </div>
@@ -25,11 +26,13 @@ nav {
    align-items: center;
    gap: $space-sm;
    width: 100%;
-   padding-bottom: $space-sm;
+   padding: $space-sm 0;
+   margin: 0 $space-sm;
    border-bottom: 1px solid $color-white;
 
    .link {
-      font-family: 'Bebas Bold'
+      // font-family: 'Bebas Bold'
+      font-weight: 700;
    }
 }
 

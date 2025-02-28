@@ -2,6 +2,7 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Intro from './components/Intro.vue'
+import Prog from './components/Prog.vue'
 import Volunteers from './components/Volunteers.vue'
 import Ticketing from './components/Ticketing.vue'
 import './assets/css/normalize.css'
@@ -16,7 +17,9 @@ import './assets/css/grid.min.css'
      
     <Header />
 
-    <Intro />
+    <Intro />    
+
+    <Prog />
 
     <Ticketing />
 
@@ -29,7 +32,7 @@ import './assets/css/grid.min.css'
 <style lang="scss">
 @use "./assets/css/main.scss" as *;
   .layout {
-    padding: $space-sm;
+    // padding: $space-sm;
     min-height: 100vh;
     display: flex;
     flex-direction: column;    
