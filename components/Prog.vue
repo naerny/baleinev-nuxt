@@ -25,8 +25,7 @@ const showArtistDescription = (artist) => {
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8 offset-lg-2">
-                    <h2>Programmation</h2>
-                    <img src="/img/e03/egarbage_full.jpg" alt="">
+                    <h2>Programmation</h2>                    
                 </div>
             </div>
             <div class="row tabs">
