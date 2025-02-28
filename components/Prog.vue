@@ -29,8 +29,7 @@ const showArtistDescription = (artist) => {
                 </div>
             </div>
             <div class="row tabs">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                  
+                <div class="col-12 col-lg-8 offset-lg-2">                  
                     <button v-for="scene in scenes" :key="scene.name" @click="selectScene(scene)"
                         :class="{ active: scene === activeScene }" class="h4">
                         {{ scene.name }}
@@ -111,7 +110,7 @@ const showArtistDescription = (artist) => {
 }
 
 .row {
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
 }
 
 .btn__lineup {
