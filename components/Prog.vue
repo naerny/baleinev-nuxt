@@ -46,7 +46,7 @@ const showArtistDescription = (artist) => {
                     <button v-else class="btn btn__primary h4" @click="toggleLineup(activeScene)">Découvrir le line up {{ activeScene.name }}</button>
                 </div>
                 <div v-else class="row">                   
-                    <div v-if="!activeArtist" class="col-12 col-md-6 col-lg-4 " v-for="artist in activeScene.artists" :key="artist.name" @click="showArtistDescription(artist)">                        
+                    <a href="#return" v-if="!activeArtist" class="col-12 col-md-6 col-lg-4 artist__container" v-for="artist in activeScene.artists" :key="artist.name" @click="showArtistDescription(artist)">                        
                         <div class="artist__card">
                             <img :src="artist.img" alt="{{ artist.name }}">
                         <div class="artist__cardText">
@@ -55,9 +55,10 @@ const showArtistDescription = (artist) => {
                             }} - {{ artist.country }}</p>
                         </div>
                         </div>
-                    </div>                 
-                    <div v-else class="col-12 col-lg-8 offset-lg-2">
-                        <button class="btn btn__lineup" @click="activeArtist = null">Retourner au lineup</button>
+                    </a>   
+                    <div v-else class="row">            
+                    <div  class="col-12 col-lg-8 offset-lg-2">
+                        <button class="btn btn__lineup" id="return" @click="activeArtist = null">Retourner au lineup</button>
                         <div class="artist__header">
                             <img :src="activeArtist.img" alt="{{ activeArtist.name }}">
                             <div class="artist__headerCopy">
@@ -69,6 +70,7 @@ const showArtistDescription = (artist) => {
                        
                         <p>{{ activeArtist.description }}</p>
                     </div>
+                </div>  
                 </div>
             </div>
         </div>
@@ -90,6 +92,7 @@ const showArtistDescription = (artist) => {
     background-color: #f0f0f0;
     border: none;
     color: $color-black;
+    margin-bottom: 0;
 
    @media(max-width: 768px) {
         font-size: 1rem;
@@ -110,11 +113,12 @@ const showArtistDescription = (artist) => {
 }
 
 .row {
-    // margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .btn__lineup {
     margin-bottom: $space-md;
+    margin-top: $space-sm;
 }
 
 button {
@@ -142,21 +146,28 @@ img {
 }
 
 .artist {
+    &__container {
+        text-decoration: none;        
+    }
     &__card {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 1rem;
         overflow: auto;
-        margin-bottom: $space-md;
+        margin: 0 $space-sm $space-sm;              
         &:hover {
            cursor: pointer;
            transform: scale(1.05) rotate(1deg);
         }
 
         * {
-            color: $color-black !important;
-        }        
+            color: $color-black !important;               
+        }    
+        
+        @media(min-width: 768px) {
+            margin: 0 0 $space-md;
+        }
     }
 
     &__cardText {
