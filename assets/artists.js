@@ -35,7 +35,7 @@ export const scenes = [
                 style: 'Hard-techno',
                 img: '/img/e03/uphoria_prev.jpg',
                 country: 'France',
-                description: 'Instrumentiste depuis l\'âge de 8 ans, Uphoria évolue dans une atmosphère euphorique que\'elle illustre à travers des tracks mêlant mélodie, basses profondes, percussions et voix, le tout dans une ambiance rave actuelle. De part son expérience avec les instruments et son énergie sur scène, Uphoria propose des lives hybrid hard-techno qui sauront mettre l\'ambiance, animés par ses machines en hardware Véritable talent émergent de la scène rave française, elle est également la co-fondatrice de Reborn Event On a pu retrouver cette jeune artiste aux côtés d\'artistes internationaux de renoms dans plusieurs festivals comme le : FCK NEW YEAR, Verknipt, Delta Festival, ’Eskape, Repperkusound, Insane Festival, FCKG Halloween, Hibernation et d’autres qui arrivent prochainement…'
+                description: 'Instrumentiste depuis l\'âge de 8 ans, Uphoria évolue dans une atmosphère euphorique que\'elle illustre à travers des tracks mêlant mélodie, basses profondes, percussions et voix, le tout dans une ambiance rave actuelle. De part son expérience avec les instruments et son énergie sur scène, Uphoria propose des lives hybrid hard-techno qui sauront mettre l\'ambiance, animés par ses machines en hardware. Véritable talent émergent de la scène rave française, elle est également la co-fondatrice de Reborn Event On a pu retrouver cette jeune artiste aux côtés d\'artistes internationaux de renoms dans plusieurs festivals comme le : FCK NEW YEAR, Verknipt, Delta Festival, ’Eskape, Repperkusound, Insane Festival, FCKG Halloween, Hibernation et d’autres qui arrivent prochainement…'
             },
             {
                 name: 'Hugo2hell',
@@ -56,7 +56,7 @@ export const scenes = [
                 style: 'Techno',
                 img: '/img/e03/elina_preview.jpg',
                 country: 'Suisse',
-                description: ''
+                description: 'Productice et DJ, Elina mélange les sonorités pour créer une atmosphère underground énergétique. En passant de la hard groove à la Hard techno, elle peut monter en puissance et capter l’attention du public tout en exprimant sa créativité. Depuis plus de trois ans, elle s’est produite aux cotés de dj internationaux et régionaux comme, Dr. Rubinstein, Novah, Nikolina, Rōse ou encore Alex Nantaya. En tant que productrice, elle aime incorporer ses propres morceaux, ce qui lui permet d’avoir un style très personnel et de surprendre le public avec des morceaux originaux.'
             },
             {
                 name: 'e-garbage',
