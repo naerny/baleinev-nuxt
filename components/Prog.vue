@@ -39,7 +39,7 @@ const showArtistDescription = (artist) => {
             </div>
             <div class="row">
                 <div v-if="!activeScene.showLineup" class="col-12 col-lg-8 offset-lg-2">                    
-                    <div v-if="activeScene.name === 'E03' || activeScene.name === 'Grande scène'">
+                    <div v-if="activeScene.name === 'Grande scène'">
                         <p class="h3">Le line up {{ activeScene.name }} arrive Bientôt!</p>
                         <p>Stay tuned!</p>
                     </div>
@@ -68,7 +68,7 @@ const showArtistDescription = (artist) => {
                             </div>
                         </div>
                        
-                        <p>{{ activeArtist.description }}</p>
+                        <p class="artist__description">{{ activeArtist.description }}</p>
                     </div>
                 </div>  
                 </div>

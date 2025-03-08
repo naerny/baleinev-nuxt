@@ -8,7 +8,8 @@ export const scenes = [
                 style: 'Rock alternatif',
                 img: '/img/exte/dktc_preview.jpg',
                 country: 'Suisse',
-                description: 'Don’t Kill The Cow est un groupe de rock alter-natif basé en Suisse romande s’étant déjà fait un nom dans la scène musicale locale (Festival Balelec, Pop Rock Festival, Isteria Festival, Vernier Sur Rock, La Makhno, Versoléo, Le Groove... ). Leurs compositions variées et originales, qui oscillent entre émotion et énergie, vous emporteront dans leur univers influencé par des grands artistes du rock mais avec un style bien à eux, jonglant entre coup de poing et caresse.'
+                description: `Don’t Kill The Cow est un groupe de rock alter-natif basé en Suisse romande s’étant déjà fait un nom dans la scène musicale locale (Festival Balelec, Pop Rock Festival, Isteria Festival, Vernier Sur Rock, La Makhno, Versoléo, Le Groove... ). 
+                Leurs compositions variées et originales, qui oscillent entre émotion et énergie, vous emporteront dans leur univers influencé par des grands artistes du rock mais avec un style bien à eux, jonglant entre coup de poing et caresse.`
             },
             {
                 name: 'Silver Dust',
@@ -22,7 +23,7 @@ export const scenes = [
                 style: 'Post-hardcore',
                 img: '/img/exte/windshelter_preview.jpg',
                 country: 'Suisse',
-                description: 'Windshelter est un groupe suisse de post-hardcore dynamique qui fusionne des mélodies intenses avec des rythmes puissants, créant une expérience sonore qui résonne avec passion et énergie. Notre musique mélange diverses inspirations pour créer un son distinctif qui repousse les limites et captive le public. Inspiré par des groupes tels que Counterparts, Static Dress, Modern Error, Casey et bien d’autres,Windshelter puise dans une palette musicale variée, insufflant créativité et profondeur à ses compositions.'
+                description: "Windshelter est un groupe suisse de post-hardcore dynamique qui fusionne des mélodies intenses avec des rythmes puissants, créant une expérience sonore qui résonne avec passion et énergie. Notre musique mélange diverses inspirations pour créer un son distinctif qui repousse les limites et captive le public. Inspiré par des groupes tels que Counterparts, Static Dress, Modern Error, Casey et bien d’autres,Windshelter puise dans une palette musicale variée, insufflant créativité et profondeur à ses compositions."
             }
         ],
         showLineup: false
