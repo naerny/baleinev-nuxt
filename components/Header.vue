@@ -106,9 +106,10 @@ nav {
          gap: $space-sm;
          position: absolute;
          top: 0;
-         right: -100%;
+         right: 0;
          width: 100%;
          height: 100%;
+         opacity: 0;
          background-color: $color-lila;
          padding: $space-lg $space-sm;
          transition: all 0.3s ease-out;
@@ -116,6 +117,7 @@ nav {
          &--open {
             display: flex;
             right: 0;
+            opacity: 1;
          }
       }
    }
