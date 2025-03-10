@@ -44,7 +44,8 @@ onMounted(() => {
                     <div class="btn__ticket">
                         <a class="btn btn__primary btn__big" href="#prog">Découvrir la prog</a>
                     </div>
-                    <a class="btn btn__secondary btn__big" href="#volunteers">Devenir bénévole</a>
+                    <!-- <a class="btn btn__secondary btn__big" href="#volunteers">Devenir bénévole</a> -->
+                    <a class="btn btn__secondary btn__big" href="#ticketing">Billeterie</a>
                 </div>
             </div>
         </div>

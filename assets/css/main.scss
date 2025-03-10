@@ -179,3 +179,7 @@ body {
     margin-bottom: $space-lg;
   }
 }
+
+.no-scroll {
+  overflow: hidden;  
+}
