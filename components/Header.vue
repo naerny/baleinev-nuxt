@@ -27,7 +27,7 @@ const toggleMenu = () => {
                   <span class="burger__line"></span>
                </button>
                <div :class="{ 'menu': true, 'menu--open': isMenuOpen }">
-                  <a href="#ticketing" class="link btn">Billeterie</a>
+                  <a href="#ticketing" class="link btn">Billetterie</a>
                   <a href="#prog" class="link">Programme</a>
                   <a href="#volunteers" class="link">Devenir bénévole</a>
                </div>
