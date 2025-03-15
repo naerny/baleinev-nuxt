@@ -26,10 +26,10 @@ export const scenes = [
                 description: "Windshelter est un groupe suisse de post-hardcore dynamique qui fusionne des mélodies intenses avec des rythmes puissants, créant une expérience sonore qui résonne avec passion et énergie. Notre musique mélange diverses inspirations pour créer un son distinctif qui repousse les limites et captive le public. Inspiré par des groupes tels que Counterparts, Static Dress, Modern Error, Casey et bien d’autres,Windshelter puise dans une palette musicale variée, insufflant créativité et profondeur à ses compositions."
             }
         ],
-        showLineup: false
+        showLineup: true
     },
     {
-        name: 'E03',
+        name: 'Scène tech E03',
         artists: [
             {
                 name: 'Uphoria',
@@ -67,16 +67,40 @@ export const scenes = [
                 description: 'Nouveau sur la scène suisse, e-garbage se caractérise par une techno mouvante aux influences multiples, développée à travers des performances live, des DJ sets, des albums et des EP. Animés par une passion pour la musique, l\'électronique et l\'approche Do It Yoursefl, les performances live intègrent une variété d\'instruments construits à partir de matériaux recyclés, donnant une touche unique aux sons. Le lien étroit entre la création d\'instruments de musique artisanaux et la production signifie que chaque son est fait sur mesure. Bien que la Techno soit au cœur du projet, elle s\'enrichit de diverses influences telles que l\'Indus, le Dark Synth, le Noise, le Break, la Bass Music et la Coldwave. Des années passées dans les clubs et les raves ont influencé son style de production, lui faisant réaliser que l\'essence d\'un voyage sonore et les émotions qu\'il évoque dépassent toujours la technique brute. Le but ultime est de permettre aux auditeurs de s\'abandonner à un voyage stationnaire unique que seule la musique électronique peut offrir.'
             }
         ],
-        showLineup: false
+        showLineup: true
     },
     {
         name: 'Grande scène',
         artists: [
-            { name: 'ASed', style: 'Rock', country: 'USA', description: 'Description of Artist 1' },
-            { name: 'Morgan', style: 'Pop', country: 'UK', description: 'Description of Artist 2' },
-            { name: 'Al\'tarba x Senbei', style: 'Jazz', country: 'France', description: 'Description of Artist 3' },
-            { name: 'Eroxy', style: 'Jazz', country: 'France', description: 'Description of Artist 3' }
+            { 
+                name: 'ASed',
+                style: 'Rock',
+                img: '/img/main/ased_preview.jpg',
+                country: 'Suisse',
+                description: 'Artiste auteur-interprète depuis 2019, ASed sait surprendre avec un mélange de textes introspectifs, des mélodies entraînante et une signature vocale qui ne laisse pas indifférent·e. Rappeur et chanteur suisse, il sort son premier projet, Contre-jour, en 2021 qui lui permettra de faire ses premières scènes dont des premières parties d’artistes reconnus comme Gazo lors du festival fluo, de Djadja & Dinaz au Kapital ou encore de Rsko à la Case à Choc. Une découverte du lien que l’on peut créer avec le public grâce à la musique. Une recherche à tout prix de partager un ego trip musical.'
+            },
+            {
+                name: 'Morgan',
+                style: 'Rap',
+                img: '/img/main/morgan_preview.jpg',
+                country: 'France',
+                description: 'Morgan, artiste aux multiples facettes, a débuté dans la Duben tant que MC avant de se faire connaître sur TikTok, où elle réunit aujourd’hui plus de 2,5 millions d’abonnés. Influencée par divers genres musicaux, elle façonne une identité artistique singulière, perceptible dans son premier album Racines (2023). En parallèle, elle s’est illustrée sur scène dans la comédie musicale Molière. Son deuxième album, La pomme (2025), aborde des thèmes forts comme le féminisme et la santé mentale, confirmant son évolution et son succès avec déjà plus de 2 millions de streams'
+            },
+            {
+                name: 'Al\'tarba x Senbei',
+                style: 'Psychédélique',
+                img: '/img/main/altarbaxsenbei_preview.jpg',
+                country: 'France',
+                description: 'Influences Ninja Tunesques, samples psychés et énergie Hip-Hop, Al\’Tarba x Senbeï repoussent les frontières du beatmaking, dans un album inclassable et fascinant. On y ressent autant l’influence de Dj Shadow, Prodigy ou Fatboy Slim que celle des Greatful Dead ou encore Jefferson Airplane. « A deux on a un peu le sentiment d’avoir foutu un grand coup de pompe dans la porte du beatmaking, en hurlant « Que personne ne bouge et tout se passera bien ! » façon Pulp Fiction!'
+            },
+            {
+                name: 'Eroxy',
+                style: 'DnB',
+                img: '/img/main/eroxy_preview.jpg',
+                country: 'Suisse',
+                description: 'Eroxy est un artiste fribourgeois dévoué qui a marqué la scène drum and bass avec des apparitions dans des salles locales comme Le Zoo, Fri-Son et d\'autres. Membre engagé des collectifs Octagon et Rollback, Eroxy apporte à ses performances un style de mixage distinctif et dynamique. L\'engagement d\'Eroxy pour son art se reflète dans sa progression, après avoir pratiqué dans des lieux underground. En tant qu\'artiste, il captive le public par sa présence scénique, son expression et son enthousiasme contagieux, créant une expérience agréable pour tous.'
+            }
         ],
-        showLineup: false
+        showLineup: true
     },
 ];

@@ -39,11 +39,11 @@ const showArtistDescription = (artist) => {
             </div>
             <div class="row">
                 <div v-if="!activeScene.showLineup" class="col-12 col-lg-8 offset-lg-2">                    
-                    <div v-if="activeScene.name === 'Grande scène'">
+                    <!-- <div v-if="activeScene.name === 'Grande scène'">
                         <p class="h3">Le line up {{ activeScene.name }} arrive Bientôt!</p>
                         <p>Stay tuned!</p>
-                    </div>
-                    <button v-else class="btn btn__primary h4" @click="toggleLineup(activeScene)">Découvrir le line up {{ activeScene.name }}</button>
+                    </div> -->
+                    <button class="btn btn__primary h4" @click="toggleLineup(activeScene)">Découvrir le line up {{ activeScene.name }}</button>
                 </div>
                 <div v-else class="row">                   
                     <a href="#return" v-if="!activeArtist" class="col-12 col-md-6 col-lg-4 artist__container" v-for="artist in activeScene.artists" :key="artist.name" @click="showArtistDescription(artist)">                        
