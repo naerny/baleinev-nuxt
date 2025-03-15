@@ -74,7 +74,7 @@ export const scenes = [
         artists: [
             { 
                 name: 'ASed',
-                style: 'Rock',
+                style: 'Rap',
                 img: '/img/main/ased_preview.jpg',
                 country: 'Suisse',
                 description: 'Artiste auteur-interprète depuis 2019, ASed sait surprendre avec un mélange de textes introspectifs, des mélodies entraînante et une signature vocale qui ne laisse pas indifférent·e. Rappeur et chanteur suisse, il sort son premier projet, Contre-jour, en 2021 qui lui permettra de faire ses premières scènes dont des premières parties d’artistes reconnus comme Gazo lors du festival fluo, de Djadja & Dinaz au Kapital ou encore de Rsko à la Case à Choc. Une découverte du lien que l’on peut créer avec le public grâce à la musique. Une recherche à tout prix de partager un ego trip musical.'
@@ -88,14 +88,14 @@ export const scenes = [
             },
             {
                 name: 'Al\'tarba x Senbei',
-                style: 'Psychédélique',
+                style: 'Hip-hop/Punk',
                 img: '/img/main/altarbaxsenbei_preview.jpg',
                 country: 'France',
                 description: 'Influences Ninja Tunesques, samples psychés et énergie Hip-Hop, Al\’Tarba x Senbeï repoussent les frontières du beatmaking, dans un album inclassable et fascinant. On y ressent autant l’influence de Dj Shadow, Prodigy ou Fatboy Slim que celle des Greatful Dead ou encore Jefferson Airplane. « A deux on a un peu le sentiment d’avoir foutu un grand coup de pompe dans la porte du beatmaking, en hurlant « Que personne ne bouge et tout se passera bien ! » façon Pulp Fiction!'
             },
             {
                 name: 'Eroxy',
-                style: 'DnB',
+                style: 'Tribe & jungle',
                 img: '/img/main/eroxy_preview.jpg',
                 country: 'Suisse',
                 description: 'Eroxy est un artiste fribourgeois dévoué qui a marqué la scène drum and bass avec des apparitions dans des salles locales comme Le Zoo, Fri-Son et d\'autres. Membre engagé des collectifs Octagon et Rollback, Eroxy apporte à ses performances un style de mixage distinctif et dynamique. L\'engagement d\'Eroxy pour son art se reflète dans sa progression, après avoir pratiqué dans des lieux underground. En tant qu\'artiste, il captive le public par sa présence scénique, son expression et son enthousiasme contagieux, créant une expérience agréable pour tous.'
